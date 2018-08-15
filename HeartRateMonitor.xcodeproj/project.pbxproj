@@ -13,15 +13,14 @@
 		44B0265E13F5D44000541EA5 /* HeartRateMonitorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B0265D13F5D44000541EA5 /* HeartRateMonitorAppDelegate.m */; };
 		44B0266113F5D44000541EA5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44B0265F13F5D44000541EA5 /* MainMenu.xib */; };
 		44B0268213F5DD2A00541EA5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B0268113F5DD2A00541EA5 /* QuartzCore.framework */; };
+		56D40A02271BA9C43E81919B /* libPods-HeartRateMonitor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEA6BD5F47EAD62D6A82E71 /* libPods-HeartRateMonitor.a */; };
 		9A090D9013FDBF7E00CCE962 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9A090D8F13FDBF7E00CCE962 /* AppIcon.icns */; };
 		9A8EF42513FC835E00CDFA4B /* Human.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A8EF42413FC835E00CDFA4B /* Human.png */; };
-		E850F3F4BAFE48A5AC223662 /* libPods-HeartRateMonitor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E48D86201D1734B0972186A /* libPods-HeartRateMonitor.a */; };
 		F7463FDA203CF2140032A0D1 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7463FD9203CF2140032A0D1 /* CoreBluetooth.framework */; };
 		FEA5E3B62117B09400D2DED5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA5E3B52117B09400D2DED5 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E48D86201D1734B0972186A /* libPods-HeartRateMonitor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeartRateMonitor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		449EC7C613F9A3110074C363 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = /System/Library/Frameworks/IOBluetooth.framework; sourceTree = "<absolute>"; };
 		44B0264613F5D44000541EA5 /* HeartRateMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B0264A13F5D44000541EA5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -40,6 +39,7 @@
 		9A090D8F13FDBF7E00CCE962 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 		9A8EF42413FC835E00CDFA4B /* Human.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Human.png; sourceTree = "<group>"; };
 		9F64AF641BF50976F3126D6C /* Pods-HeartRateMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartRateMonitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeartRateMonitor/Pods-HeartRateMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		CEEA6BD5F47EAD62D6A82E71 /* libPods-HeartRateMonitor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeartRateMonitor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71B0DB2204763C100AEEF66 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = ReadMe.md; path = HeartRateMonitor/ReadMe.md; sourceTree = "<group>"; };
 		F7463FD9203CF2140032A0D1 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		FEA5E3B52117B09400D2DED5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 				F7463FDA203CF2140032A0D1 /* CoreBluetooth.framework in Frameworks */,
 				44B0268213F5DD2A00541EA5 /* QuartzCore.framework in Frameworks */,
 				44B0264B13F5D44000541EA5 /* Cocoa.framework in Frameworks */,
-				E850F3F4BAFE48A5AC223662 /* libPods-HeartRateMonitor.a in Frameworks */,
+				56D40A02271BA9C43E81919B /* libPods-HeartRateMonitor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 				44B0268113F5DD2A00541EA5 /* QuartzCore.framework */,
 				44B0264A13F5D44000541EA5 /* Cocoa.framework */,
 				44B0264C13F5D44000541EA5 /* Other Frameworks */,
-				2E48D86201D1734B0972186A /* libPods-HeartRateMonitor.a */,
+				CEEA6BD5F47EAD62D6A82E71 /* libPods-HeartRateMonitor.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -354,6 +354,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.13;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,6 +374,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.13;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
