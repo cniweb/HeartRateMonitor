@@ -15,11 +15,13 @@
 		44B0268213F5DD2A00541EA5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B0268113F5DD2A00541EA5 /* QuartzCore.framework */; };
 		9A090D9013FDBF7E00CCE962 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9A090D8F13FDBF7E00CCE962 /* AppIcon.icns */; };
 		9A8EF42513FC835E00CDFA4B /* Human.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A8EF42413FC835E00CDFA4B /* Human.png */; };
+		E850F3F4BAFE48A5AC223662 /* libPods-HeartRateMonitor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E48D86201D1734B0972186A /* libPods-HeartRateMonitor.a */; };
 		F7463FDA203CF2140032A0D1 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7463FD9203CF2140032A0D1 /* CoreBluetooth.framework */; };
 		FEA5E3B62117B09400D2DED5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA5E3B52117B09400D2DED5 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E48D86201D1734B0972186A /* libPods-HeartRateMonitor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeartRateMonitor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		449EC7C613F9A3110074C363 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = /System/Library/Frameworks/IOBluetooth.framework; sourceTree = "<absolute>"; };
 		44B0264613F5D44000541EA5 /* HeartRateMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B0264A13F5D44000541EA5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -34,8 +36,10 @@
 		44B0265D13F5D44000541EA5 /* HeartRateMonitorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartRateMonitorAppDelegate.m; sourceTree = "<group>"; };
 		44B0266013F5D44000541EA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		44B0268113F5DD2A00541EA5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		82BCAA7917D942F697C8FE9C /* Pods-HeartRateMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartRateMonitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeartRateMonitor/Pods-HeartRateMonitor.debug.xcconfig"; sourceTree = "<group>"; };
 		9A090D8F13FDBF7E00CCE962 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
 		9A8EF42413FC835E00CDFA4B /* Human.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Human.png; sourceTree = "<group>"; };
+		9F64AF641BF50976F3126D6C /* Pods-HeartRateMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartRateMonitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeartRateMonitor/Pods-HeartRateMonitor.release.xcconfig"; sourceTree = "<group>"; };
 		F71B0DB2204763C100AEEF66 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = ReadMe.md; path = HeartRateMonitor/ReadMe.md; sourceTree = "<group>"; };
 		F7463FD9203CF2140032A0D1 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		FEA5E3B52117B09400D2DED5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,7 @@
 				F7463FDA203CF2140032A0D1 /* CoreBluetooth.framework in Frameworks */,
 				44B0268213F5DD2A00541EA5 /* QuartzCore.framework in Frameworks */,
 				44B0264B13F5D44000541EA5 /* Cocoa.framework in Frameworks */,
+				E850F3F4BAFE48A5AC223662 /* libPods-HeartRateMonitor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,7 @@
 				44B0265013F5D44000541EA5 /* HeartRateMonitor */,
 				44B0264913F5D44000541EA5 /* Frameworks */,
 				44B0264713F5D44000541EA5 /* Products */,
+				6EC539DD52421E643C95EE35 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +87,7 @@
 				44B0268113F5DD2A00541EA5 /* QuartzCore.framework */,
 				44B0264A13F5D44000541EA5 /* Cocoa.framework */,
 				44B0264C13F5D44000541EA5 /* Other Frameworks */,
+				2E48D86201D1734B0972186A /* libPods-HeartRateMonitor.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,6 +127,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6EC539DD52421E643C95EE35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82BCAA7917D942F697C8FE9C /* Pods-HeartRateMonitor.debug.xcconfig */,
+				9F64AF641BF50976F3126D6C /* Pods-HeartRateMonitor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -127,6 +143,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44B0267913F5D44000541EA5 /* Build configuration list for PBXNativeTarget "HeartRateMonitor" */;
 			buildPhases = (
+				680C66B9EEAB33120F9B9D00 /* [CP] Check Pods Manifest.lock */,
 				44B0264213F5D44000541EA5 /* Sources */,
 				44B0264313F5D44000541EA5 /* Frameworks */,
 				44B0264413F5D44000541EA5 /* Resources */,
@@ -180,6 +197,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		680C66B9EEAB33120F9B9D00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeartRateMonitor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		44B0264213F5D44000541EA5 /* Sources */ = {
@@ -303,7 +341,10 @@
 		};
 		44B0267A13F5D44000541EA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BCAA7917D942F697C8FE9C /* Pods-HeartRateMonitor.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = 7C2RQ3CX79;
@@ -319,7 +360,10 @@
 		};
 		44B0267B13F5D44000541EA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F64AF641BF50976F3126D6C /* Pods-HeartRateMonitor.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				DEVELOPMENT_TEAM = 7C2RQ3CX79;

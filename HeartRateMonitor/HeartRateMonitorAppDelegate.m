@@ -9,6 +9,10 @@
 #import "HeartRateMonitorAppDelegate.h"
 #import <QuartzCore/QuartzCore.h>
 
+@import AppCenter;
+@import AppCenterAnalytics;
+@import AppCenterCrashes;
+
 @implementation HeartRateMonitorAppDelegate
 
 @synthesize window;
@@ -41,6 +45,8 @@
     {
         [self startScan];
     }
+    
+    [MSAppCenter start:@"6947edf4-dcbb-4b7c-b57f-5a2c7c1b2863" withServices:@[ [MSAnalytics class], [MSCrashes class] ]];
 }
 
 - (void) dealloc
